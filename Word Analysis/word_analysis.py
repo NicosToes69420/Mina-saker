@@ -15,7 +15,7 @@ def unique_word(word_analysis=None):
         for line in hume:
 
             for word in line.split():
-                unique_words.append(word.lower().strip(".,!?:;'\()-")) #tar bort alla tecken
+                unique_words.append(word.lower().strip(".,!?:;'()-")) #tar bort alla tecken
 
             for clean_word in line.split():
                 counter[clean_word] = counter.get(clean_word, 0) + 1
@@ -26,11 +26,12 @@ def unique_word(word_analysis=None):
                    "counted_words":counter} #alla ord och hur många gånger de stöts på
 
     top_10_words =  {k: v for k, v in sorted(word_analysis["counted_words"].items(), key=lambda item: item[1],reverse = True )[:10] } #Tack geeks for geeks #d = {'watermelon': 1, 'apple': 2, 'banana': 3}        asc = k: v for k, v in sorted(d.items(), key=lambda item: item[1])} print(asc)
+    word_analysis["top_10_words"] = top_10_words
 
 
-
-    print(f"unique_words_string { word_analysis["unique_words_string"][:10] } {top_10_words }") #lade in [:10] bara för att den ska visa tio uniqa ord
-    #print(counter)
+    #print(f"unique_words_string { word_analysis["unique_words_string"][:10] } {top_10_words }") #lade in [:10] bara för att den ska visa tio uniqa ord
+    #print(word_analysis["top_10_words"])
     #return word_analysis
-
+    #return word_analysis
+    return word_analysis
 unique_word()

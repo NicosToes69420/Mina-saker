@@ -1,9 +1,6 @@
 import random
 
 print(f"{random.choice(["Goodbye world", "Hello world"])}")
-print("fammalam")
-print("fammalam")
-print("fammalam")
-print("fammalam")
-print("fammalam")
-print("fammalam")
+def hello_world():
+    print("Hello world")
+hello_world()

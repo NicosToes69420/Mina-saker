@@ -15,7 +15,7 @@ def unique_word(word_analysis=None):
         for line in hume:
 
             for word in line.split():
-                unique_words.append(word.lower().strip(".,!?:;'()-")) #tar bort alla tecken
+                unique_words.append(word.lower().strip(".,!?:;'\()-")) #tar bort alla tecken
 
             for clean_word in line.split():
                 counter[clean_word] = counter.get(clean_word, 0) + 1

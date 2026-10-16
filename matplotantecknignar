@@ -1,0 +1,70 @@
+import matplotlib.pyplot as plt
+import math
+
+x = []
+siny = []
+cosy = []
+for i in range(0,100):
+    x.append(i/10)
+    cosy.append(math.cos(i/10))
+    siny.append(math.sin(i/10))
+
+plt.plot(x,siny,color ="green",  label= "sin(x)")
+plt.plot(x, cosy, "b-_", label = "cos(x)") #b-- ger punkt graf
+
+
+plt.title("min bazinga graf") #du borde fatta
+plt.legend(loc="center") #för att skriva ut labels. annars händer inget. pos styrs av maskinen #lägg till "center" eller något för att bestämma manuelt.
+
+plt.show()
+
+
+import matplotlib.pyplot as plt
+import random
+
+def throw_dice(n):
+    v = [0]*11
+
+    for i in range(n):
+        sum = random.randint(1,6) + random.randint(1,6) #2-12 #10 st från index 0
+        v[sum-2] = v[sum-2] +1
+
+    return freq
+
+x_pos = list(range(2,13))
+freq = throw_dice(500)
+
+plt.bar(x_pos,freq)
+plt.xticks([1,2,3,4,5,6,7,8,9,10,11,12])
+plt.show()
+
+import matplotlib.pyplot as plt
+
+
+year = []
+meantemp = []
+meantemp30 = []
+meantemp10 = []
+
+with open ("uppsala.csv", encoding ="utf-8") as file:
+    for line in file:
+        data = line.strip().split(";")
+        year.append(int(data[0]))
+        meantemp.append(float(data[1])) #andra kolonnen
+        meantemp10.append(float(data[2]))
+        meantemp30.append(float(data[3]))
+
+
+plt.figure(figsize= (12,6))
+plt.plot(year,meantemp, color ="gray", label ="Medeltemp")
+plt.plot(year, meantemp10, color ="blue", label ="Meantemp10")
+plt.plot(year, meantemp30, color ="red", label="meantemp30")
+
+xt = list(range(1725,2026, 25))
+
+plt.xlabel("årtal")
+plt.ylabel("temperature")
+plt.title("uppsala temp broski")
+plt.xticks(xt)
+plt.legend(loc="upper center")
+plt.show()

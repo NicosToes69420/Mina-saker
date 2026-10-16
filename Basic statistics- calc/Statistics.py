@@ -24,10 +24,15 @@ def statistics_count():
 
 
 
-def statistics_average(sum, number):
+def statistics_average(statistics_tuple): #tar statistcsen och gör en average
     # Average = sum all value // number of values
+    tuple = statistics_tuple
+    average_word = tuple[0] / tuple[1]
+    average_line =  tuple[2] /  tuple[0]
+    return_message = f" the average word per line is: { round( average_word, 2):-^5}, and the average character per word is: {round( average_line, 2):-^5}"
+    return average_word, average_line, return_message
 
 
-
-
-
+#testar
+#statistics_average1 = statistics_average(statistics_count())
+#print(statistics_average1[2])

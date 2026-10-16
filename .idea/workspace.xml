@@ -114,7 +114,7 @@
       <updated>1792088128725</updated>
       <workItem from="1792088129898" duration="462000" />
       <workItem from="1792149271939" duration="1281000" />
-      <workItem from="1792154118320" duration="1475000" />
+      <workItem from="1792154118320" duration="2167000" />
     </task>
     <task id="LOCAL−00001" summary="Testar via pychar 15/10/2026">
       <option name="closed" value="true" />
@@ -151,7 +151,14 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1792155319576</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="första draft av projectet">
+      <option name="closed" value="true" />
+      <created>1792155747973</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1792155747973</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +200,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="Localtree" />
                       </list>
                     </value>
                   </entry>
@@ -216,6 +223,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$program.coverage" NAME="program Coverage Results" MODIFIED="1792154476877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker$program.coverage" NAME="program Coverage Results" MODIFIED="1792088431916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1792155228173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic statistics- calc" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1792156414679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic statistics- calc" />
   </component>
 </project>

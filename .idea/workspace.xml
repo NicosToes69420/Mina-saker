@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="första draft av projectet">
+      <change afterPath="$PROJECT_DIR$/Word Analysis/word_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Mina-saker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mina-saker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic statistics- calc/Statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic statistics- calc/Statistics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic statistics- calc/Statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_statistics/Statistics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <excluded-from-favorite>
@@ -29,7 +38,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Testarbranchfunk" />
+        <entry key="$PROJECT_DIR$" value="MainLocal" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,17 +68,23 @@
   "keyToString": {
     "Python.Statistics.executor": "Run",
     "Python.program.executor": "Run",
+    "Python.word_analysis.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Localtree",
+    "git-widget-placeholder": "arbetsbranch",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="program" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Mina-saker" />
@@ -223,6 +238,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$program.coverage" NAME="program Coverage Results" MODIFIED="1792154476877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker$program.coverage" NAME="program Coverage Results" MODIFIED="1792088431916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1792156414679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic statistics- calc" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1792158077752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1792159511507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_statistics" />
   </component>
 </project>

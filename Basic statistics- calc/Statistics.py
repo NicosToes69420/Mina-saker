@@ -19,12 +19,15 @@ def statistics_count():
                 for char in word:
                    total_char_no_space += 1 #utan space
 
-    print(total_words, total_lines , total_char_no_space, total_char_space)
+    #print(total_words, total_lines , total_char_no_space, total_char_space)
     return total_words, total_lines, total_char_no_space, total_char_space
 
 
 
-def statistics_average():
+def statistics_average(sum, number):
+    # Average = sum all value // number of values
+
+
 
 
 

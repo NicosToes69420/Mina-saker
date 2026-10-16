@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="Testar via pychar igen, kanche branz? 16/10/2026">
-      <change afterPath="$PROJECT_DIR$/Basic statistics- calc/Statistics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books/Dialogues concerning second religion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Edards grej.py" afterDir="false" />
+    <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="första draft av projectet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic statistics- calc/Statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic statistics- calc/Statistics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,7 @@
       <updated>1792088128725</updated>
       <workItem from="1792088129898" duration="462000" />
       <workItem from="1792149271939" duration="1281000" />
-      <workItem from="1792154118320" duration="1117000" />
+      <workItem from="1792154118320" duration="1475000" />
     </task>
     <task id="LOCAL−00001" summary="Testar via pychar 15/10/2026">
       <option name="closed" value="true" />
@@ -146,7 +144,14 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1792149909310</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="första draft av projectet">
+      <option name="closed" value="true" />
+      <created>1792155319576</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1792155319576</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,11 +210,12 @@
     <MESSAGE value="Testar via pychar 16/10/2026" />
     <MESSAGE value="Testar via pychar igen 16/10/2026" />
     <MESSAGE value="Testar via pychar igen, kanche branz? 16/10/2026" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testar via pychar igen, kanche branz? 16/10/2026" />
+    <MESSAGE value="första draft av projectet" />
+    <option name="LAST_COMMIT_MESSAGE" value="första draft av projectet" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$program.coverage" NAME="program Coverage Results" MODIFIED="1792154476877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker$program.coverage" NAME="program Coverage Results" MODIFIED="1792088431916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1792154906571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic statistics- calc" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1792155228173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic statistics- calc" />
   </component>
 </project>

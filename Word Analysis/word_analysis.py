@@ -35,10 +35,12 @@ def top_10_words(word_analysis):
                           key=lambda item: item[1], #lamba betyder att funktionen tar en annonym variabel.
                           reverse=True)[:10]
 
-
+    #sorted items är en lista som innehåller 10 st 2-tuplar. for loopen säger bara att n-tuple med 1-1
+    #ska läggas till i wordanalysis disctionary som en dicitonar för varje key (första tuple/ordet) får
+    #värdet (andra tuplen/siffran).
     for k, v in sorted_items:
-        word_analysis["top_10_words"][k] = v
-
+        word_analysis["top_10_words"][k] = v #
+        #print(k, v , sorted_items, type(sorted_items))
 
     return word_analysis
 
@@ -57,3 +59,4 @@ def word_once(word_analysis):
 #    print(f"{word:-^20}")
 
 #print(word_once(unique_word(file_menu())))
+#print(top_10_words(unique_word(file_menu())))

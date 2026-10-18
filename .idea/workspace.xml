@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="Gjort file path mer universelt">
-      <change beforePath="$PROJECT_DIR$/Basic_statistics/Statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_statistics/Statistics.py" afterDir="false" />
+    <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="fixat lit i unique word. separeat funktioner och gjort word_once mer effektiv">
+      <change afterPath="$PROJECT_DIR$/visuals/visuals_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Word Analysis/word_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Word Analysis/word_analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,61 +55,61 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0011840697547838" />
-      <entry key="MS500" value="1.517034408091364" />
-      <entry key="S2" value="4.370717534330949" />
-      <entry key="S5" value="7.3790462180127925" />
-      <entry key="S10" value="10.007147195039916" />
-      <entry key="S30" value="13.371380312090126" />
-      <entry key="S60" value="14.761124626569103" />
-      <entry key="M2" value="16.571122320170524" />
-      <entry key="M5" value="24.6112091481966" />
-      <entry key="M10" value="40.543364741445714" />
-      <entry key="M15" value="54.380469885956664" />
-      <entry key="M30" value="81.95778584108942" />
-      <entry key="H1" value="106.95976299291294" />
-      <entry key="H2" value="124.5213315399753" />
-      <entry key="H4" value="135.05154803252196" />
-      <entry key="D1" value="144.90075447489053" />
-      <entry key="W1" value="146.69733475977876" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000079655119717" />
+      <entry key="S2" value="1.1719709824192956" />
+      <entry key="S5" value="2.313621326773892" />
+      <entry key="S10" value="5.40664273606793" />
+      <entry key="S30" value="20.639927126330157" />
+      <entry key="S60" value="36.992179411650994" />
+      <entry key="M2" value="57.141148856864724" />
+      <entry key="M5" value="92.38293765305004" />
+      <entry key="M10" value="125.43309140290694" />
+      <entry key="M15" value="147.5111945650096" />
+      <entry key="M30" value="187.27464191829426" />
+      <entry key="H1" value="222.10097351150347" />
+      <entry key="H2" value="246.5304924858065" />
+      <entry key="H4" value="261.2368733176749" />
+      <entry key="D1" value="275.04840050527736" />
+      <entry key="W1" value="277.57426716965466" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.1742103534101104E-199" />
-      <entry key="S2" value="1.8511281124458765E-50" />
-      <entry key="S5" value="1.2793064530115524E-20" />
-      <entry key="S10" value="1.1310643010066291E-10" />
-      <entry key="S30" value="4.8363015494132233E-4" />
-      <entry key="S60" value="0.022185312758353715" />
-      <entry key="M2" value="0.16791891010183002" />
-      <entry key="M5" value="0.803113965155846" />
-      <entry key="M10" value="1.7853736556942887" />
-      <entry key="M15" value="2.639819391639784" />
-      <entry key="M30" value="4.445393155777193" />
-      <entry key="H1" value="6.163501411679454" />
-      <entry key="H2" value="7.398052158684756" />
-      <entry key="H4" value="8.145951891138187" />
-      <entry key="D1" value="8.849580985071038" />
-      <entry key="W1" value="8.978303776724932" />
+      <entry key="MS500" value="9.697416476806792E-89" />
+      <entry key="S2" value="9.923480366887755E-23" />
+      <entry key="S5" value="1.5808751188713772E-9" />
+      <entry key="S10" value="4.066836911877684E-5" />
+      <entry key="S30" value="0.043849545761898194" />
+      <entry key="S60" value="0.2833824749970471" />
+      <entry key="M2" value="0.7515391208662147" />
+      <entry key="M5" value="1.5769085609772056" />
+      <entry key="M10" value="2.602285695748552" />
+      <entry key="M15" value="3.5013849155254237" />
+      <entry key="M30" value="5.491400544321542" />
+      <entry key="H1" value="7.496665317504768" />
+      <entry key="H2" value="8.99488692258697" />
+      <entry key="H4" value="9.922978911731386" />
+      <entry key="D1" value="10.809037619915479" />
+      <entry key="W1" value="10.972423117509004" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9276626433153665" />
-      <entry key="MS500" value="1.4920623970575686" />
-      <entry key="S2" value="4.349678663545485" />
-      <entry key="S5" value="7.363996968565972" />
-      <entry key="S10" value="9.996815579200488" />
-      <entry key="S30" value="13.367147545291642" />
-      <entry key="S60" value="14.779138805265381" />
-      <entry key="M2" value="16.73203585867874" />
-      <entry key="M5" value="25.402167262798546" />
-      <entry key="M10" value="42.31566529956271" />
-      <entry key="M15" value="57.007973074287754" />
-      <entry key="M30" value="86.39346674325887" />
-      <entry key="H1" value="113.11675044750224" />
-      <entry key="H2" value="131.91552974917954" />
-      <entry key="H4" value="143.19539135956288" />
-      <entry key="D1" value="153.74995545727154" />
-      <entry key="W1" value="155.6755835020216" />
+      <entry key="MS100" value="0.8827029962906549" />
+      <entry key="MS500" value="0.9754330240827362" />
+      <entry key="S2" value="1.164413172288856" />
+      <entry key="S5" value="2.307301586457801" />
+      <entry key="S10" value="5.398999078808524" />
+      <entry key="S30" value="20.66908257900411" />
+      <entry key="S60" value="37.25327648575478" />
+      <entry key="M2" value="57.86562671735369" />
+      <entry key="M5" value="93.93478394765032" />
+      <entry key="M10" value="128.01425830904958" />
+      <entry key="M15" value="150.99412441718397" />
+      <entry key="M30" value="192.75247639261158" />
+      <entry key="H1" value="229.58879223094397" />
+      <entry key="H2" value="255.5201976656281" />
+      <entry key="H4" value="271.1570274464391" />
+      <entry key="D1" value="285.8569301563546" />
+      <entry key="W1" value="288.5466167413102" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -201,7 +201,7 @@
       <workItem from="1792163140121" duration="3211000" />
       <workItem from="1792259567763" duration="5082000" />
       <workItem from="1792312605856" duration="1960000" />
-      <workItem from="1792328200799" duration="4131000" />
+      <workItem from="1792328200799" duration="4680000" />
     </task>
     <task id="LOCAL−00001" summary="Testar via pychar 15/10/2026">
       <option name="closed" value="true" />
@@ -280,7 +280,14 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1792330776350</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="fixat lit i unique word. separeat funktioner och gjort word_once mer effektiv">
+      <option name="closed" value="true" />
+      <created>1792332375502</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1792332375502</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,14 +352,15 @@
     <MESSAGE value="tog bort gammal fil och lagt in matplotantecknignar för att ha till senare" />
     <MESSAGE value="putsats på word_analysis.py" />
     <MESSAGE value="Gjort file path mer universelt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gjort file path mer universelt" />
+    <MESSAGE value="fixat lit i unique word. separeat funktioner och gjort word_once mer effektiv" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixat lit i unique word. separeat funktioner och gjort word_once mer effektiv" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1792314328643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$program.coverage" NAME="program Coverage Results" MODIFIED="1792312808870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker$program.coverage" NAME="program Coverage Results" MODIFIED="1792088431916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1792313326683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_statistics" />
-    <SUITE FILE_PATH="coverage/Mina_saker$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1792332333390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
+    <SUITE FILE_PATH="coverage/Mina_saker$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1792332725466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$text_selection.coverage" NAME="text_selection Coverage Results" MODIFIED="1792314072632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Loading" />
     <SUITE FILE_PATH="coverage/Mina_saker$text_selection.coverage" NAME="text_selection Coverage Results" MODIFIED="1792330426784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Loading" />
   </component>

@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="FIxat lite">
-      <change afterPath="$PROJECT_DIR$/Books/David_hume_complete_works.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File Loading/text_selection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Mina-saker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mina-saker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File Loading/text_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/File Loading/text_selection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Word Analysis/word_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Word Analysis/word_analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,12 +48,71 @@
     &quot;assignee&quot;: &quot;NicosToes69420&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/NicosToes69420/Mina-saker.git&quot;,
-    &quot;accountId&quot;: &quot;539fa463-6359-4d7f-b74c-011b5dbdbe6e&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NicosToes69420/Mina-saker.git",
+    "accountId": "c0e46bcc-27ae-4cb9-a403-1892b8145970"
   }
-}</component>
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000000049" />
+      <entry key="S10" value="1.0000001206873" />
+      <entry key="S30" value="1.0120867678132366" />
+      <entry key="S60" value="1.3714067762266833" />
+      <entry key="M2" value="3.9326162686027453" />
+      <entry key="M5" value="13.160818381793025" />
+      <entry key="M10" value="23.50902543881291" />
+      <entry key="M15" value="30.651679704731787" />
+      <entry key="M30" value="42.73577605623924" />
+      <entry key="H1" value="52.08560225678583" />
+      <entry key="H2" value="58.00965992238533" />
+      <entry key="H4" value="61.358628949065704" />
+      <entry key="D1" value="64.37159645154739" />
+      <entry key="W1" value="64.90968487258888" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="7.43678478207418E-74" />
+      <entry key="S2" value="5.222113458808427E-19" />
+      <entry key="S5" value="4.865623734964425E-8" />
+      <entry key="S10" value="2.2058158887278934E-4" />
+      <entry key="S30" value="0.06042188948904253" />
+      <entry key="S60" value="0.24718405584817668" />
+      <entry key="M2" value="0.5600525555091646" />
+      <entry key="M5" value="1.4155931784579012" />
+      <entry key="M10" value="2.435957464551951" />
+      <entry key="M15" value="3.1034630851656417" />
+      <entry key="M30" value="4.165783378355086" />
+      <entry key="H1" value="4.949985081247197" />
+      <entry key="H2" value="5.4355290827921845" />
+      <entry key="H4" value="5.706979685113996" />
+      <entry key="D1" value="5.949579840000312" />
+      <entry key="W1" value="5.992757171512318" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.004186615088032396" />
+      <entry key="MS500" value="0.334481888696528" />
+      <entry key="S2" value="0.7604893766205046" />
+      <entry key="S5" value="0.8962667405183111" />
+      <entry key="S10" value="0.9469161063523144" />
+      <entry key="S30" value="1.052595726861375" />
+      <entry key="S60" value="1.6049460302634464" />
+      <entry key="M2" value="4.4813749635823825" />
+      <entry key="M5" value="14.566027264067888" />
+      <entry key="M10" value="25.935629340570223" />
+      <entry key="M15" value="33.74675059224355" />
+      <entry key="M30" value="46.89543869068534" />
+      <entry key="H1" value="57.03176045212654" />
+      <entry key="H2" value="63.44302987190095" />
+      <entry key="H4" value="67.06445926001132" />
+      <entry key="D1" value="70.32097423076164" />
+      <entry key="W1" value="70.90241291002445" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7,
   &quot;fromUser&quot;: false
@@ -75,12 +132,19 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "MainLocal",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books",
+    "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -101,7 +165,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="~/PycharmProjects/WelcomeScreen/.venv" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -122,7 +185,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
+        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
       </set>
     </attachedChunks>
   </component>
@@ -139,6 +202,7 @@
       <workItem from="1792163140121" duration="3211000" />
       <workItem from="1792259567763" duration="5082000" />
       <workItem from="1792312605856" duration="1960000" />
+      <workItem from="1792328200799" duration="2514000" />
     </task>
     <task id="LOCAL−00001" summary="Testar via pychar 15/10/2026">
       <option name="closed" value="true" />
@@ -252,7 +316,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="arbetsbranch" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -277,10 +341,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="putsats på word_analysis.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1792314328643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$program.coverage" NAME="program Coverage Results" MODIFIED="1792312808870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker$program.coverage" NAME="program Coverage Results" MODIFIED="1792088431916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1792314328643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1792313326683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_statistics" />
+    <SUITE FILE_PATH="coverage/Mina_saker$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1792330610737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$text_selection.coverage" NAME="text_selection Coverage Results" MODIFIED="1792314072632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Loading" />
+    <SUITE FILE_PATH="coverage/Mina_saker$text_selection.coverage" NAME="text_selection Coverage Results" MODIFIED="1792330426784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Loading" />
   </component>
 </project>

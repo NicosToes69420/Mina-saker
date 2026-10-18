@@ -1,9 +1,8 @@
 from text_selection import file_menu
 
-
 def unique_word(txt_path):
 
-    counter = dict() #counter håller i ord och antal
+    counter = dict() #counter2 håller i ord och antal
     unique_words = []
 
 
@@ -52,4 +51,5 @@ def word_once(word_analysis):
 #print(f"{word_once(unique_word())} hej"  )
 #for word in word_once(unique_word()):
 #    print(f"{word:-^20}")
+
 print(word_once(unique_word(file_menu())))

@@ -35,6 +35,7 @@ def top_10_words(word_analysis):
                           key=lambda item: item[1], #lamba betyder att funktionen tar en annonym variabel.
                           reverse=True)[:10]
 
+    #FÖRKLARING:
     #sorted items är en lista som innehåller 10 st 2-tuplar. for loopen säger bara att n-tuple med 1-1
     #ska läggas till i wordanalysis disctionary som en dicitonar för varje key (första tuple/ordet) får
     #värdet (andra tuplen/siffran).

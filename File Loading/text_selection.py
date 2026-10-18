@@ -2,8 +2,8 @@ from pathlib import Path
 
 
 def file_menu():
-    cwd = Path(__file__).resolve().parent.parent #path funktion => "__file__"
-    # beetyder nuvarande filen ==> resolve() gör allting till en path. ==> parent går "tillbaka" ett /
+    cwd = Path(__file__).resolve().parent.parent #path funktion => "__file__" #cwd = current working directory
+    #betyder nuvarande filen ==> resolve() gör allting till en path. ==> parent går "tillbaka" ett /
 
     while True:
         try:
@@ -20,7 +20,7 @@ def file_menu():
 
                         return txt_path
 
-                    case _:
+                    case _: #alla andra cases/om inte bestämda cases sker
                         print("Please enter a valid choice")
             except:
                 print("Invalid choice")

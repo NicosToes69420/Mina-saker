@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="förklarat lite">
+      <change afterPath="$PROJECT_DIR$/Books/A_theory_of_justice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Books/Kallokain.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/File Loading/text_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/File Loading/text_selection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Word Analysis/word_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Word Analysis/word_analysis.py" afterDir="false" />
     </list>
@@ -47,69 +50,69 @@
     &quot;assignee&quot;: &quot;NicosToes69420&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NicosToes69420/Mina-saker.git",
-    "accountId": "c0e46bcc-27ae-4cb9-a403-1892b8145970"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NicosToes69420/Mina-saker.git&quot;,
+    &quot;accountId&quot;: &quot;c0e46bcc-27ae-4cb9-a403-1892b8145970&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000036205133758" />
-      <entry key="S5" value="1.0188512419041063" />
-      <entry key="S10" value="1.4001948466187295" />
-      <entry key="S30" value="4.936812171091003" />
-      <entry key="S60" value="11.372291077430681" />
-      <entry key="M2" value="28.180131334426772" />
-      <entry key="M5" value="71.2834307453646" />
-      <entry key="M10" value="114.54043266410021" />
-      <entry key="M15" value="142.33991350877997" />
-      <entry key="M30" value="190.46638880567264" />
-      <entry key="H1" value="231.59145946733938" />
-      <entry key="H2" value="260.21540865792696" />
-      <entry key="H4" value="277.4109111628395" />
-      <entry key="D1" value="293.5510568702808" />
-      <entry key="W1" value="296.5025297505834" />
+      <entry key="MS100" value="1.0000000045232538" />
+      <entry key="MS500" value="1.0233409664798574" />
+      <entry key="S2" value="1.5916133497589726" />
+      <entry key="S5" value="2.215565518329608" />
+      <entry key="S10" value="2.5566682151360998" />
+      <entry key="S30" value="3.0419218356506166" />
+      <entry key="S60" value="4.76794362699164" />
+      <entry key="M2" value="11.758666614975839" />
+      <entry key="M5" value="44.65949316565615" />
+      <entry key="M10" value="93.2512409997625" />
+      <entry key="M15" value="127.86558876538875" />
+      <entry key="M30" value="189.27889881535958" />
+      <entry key="H1" value="242.17519481413703" />
+      <entry key="H2" value="279.175986484323" />
+      <entry key="H4" value="301.49081430367335" />
+      <entry key="D1" value="322.50166282910146" />
+      <entry key="W1" value="326.3509768174814" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="7.042604032655105E-221" />
-      <entry key="S2" value="9.160798290783192E-56" />
-      <entry key="S5" value="9.660626385492804E-23" />
-      <entry key="S10" value="1.0053345726732745E-11" />
-      <entry key="S30" value="2.7520081723933943E-4" />
-      <entry key="S60" value="0.022449945921889928" />
-      <entry key="M2" value="0.21153037899626947" />
-      <entry key="M5" value="0.9496749290327856" />
-      <entry key="M10" value="2.0194783680460255" />
-      <entry key="M15" value="2.9568503423437877" />
-      <entry key="M30" value="5.046355780623369" />
-      <entry key="H1" value="7.1864679719920685" />
-      <entry key="H2" value="8.8068255557189" />
-      <entry key="H4" value="9.8186982033891" />
-      <entry key="D1" value="10.790022132996032" />
-      <entry key="W1" value="10.9696634764414" />
+      <entry key="MS500" value="2.690987438323567E-165" />
+      <entry key="S2" value="7.202411285151628E-42" />
+      <entry key="S5" value="3.491332251710712E-17" />
+      <entry key="S10" value="5.910074973445252E-9" />
+      <entry key="S30" value="0.00197774549238432" />
+      <entry key="S60" value="0.06105980944385728" />
+      <entry key="M2" value="0.41623009870547084" />
+      <entry key="M5" value="1.6726368465906183" />
+      <entry key="M10" value="3.220887936867317" />
+      <entry key="M15" value="4.409849471569729" />
+      <entry key="M30" value="6.900553257462443" />
+      <entry key="H1" value="9.424389053543322" />
+      <entry key="H2" value="11.353842095748393" />
+      <entry key="H4" value="12.569640761930511" />
+      <entry key="D1" value="13.74488946455902" />
+      <entry key="W1" value="13.963120030855762" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8950250709279725" />
-      <entry key="MS500" value="0.9780634734473393" />
-      <entry key="S2" value="0.9944737748982756" />
-      <entry key="S5" value="1.0166052246713346" />
-      <entry key="S10" value="1.3987591728978381" />
-      <entry key="S30" value="4.935559275753604" />
-      <entry key="S60" value="11.391756985615265" />
-      <entry key="M2" value="28.38319897656534" />
-      <entry key="M5" value="72.21758702676571" />
-      <entry key="M10" value="116.54329105690448" />
-      <entry key="M15" value="145.28102051077227" />
-      <entry key="M30" value="195.50019644196368" />
-      <entry key="H1" value="238.76940553548638" />
-      <entry key="H2" value="269.017139975818" />
-      <entry key="H4" value="287.22680381411203" />
-      <entry key="D1" value="304.3405701802311" />
-      <entry key="W1" value="307.4721194498458" />
+      <entry key="MS100" value="0.8766057252811447" />
+      <entry key="MS500" value="0.9967307581872255" />
+      <entry key="S2" value="1.580951417064054" />
+      <entry key="S5" value="2.2095157708515494" />
+      <entry key="S10" value="2.5531311401018324" />
+      <entry key="S30" value="3.0388307246729362" />
+      <entry key="S60" value="4.817873421685346" />
+      <entry key="M2" value="12.158954106087688" />
+      <entry key="M5" value="46.313143373370146" />
+      <entry key="M10" value="96.45311468119037" />
+      <entry key="M15" value="132.25756006658435" />
+      <entry key="M30" value="196.16517670660397" />
+      <entry key="H1" value="251.58982429548752" />
+      <entry key="H2" value="290.52396014505604" />
+      <entry key="H4" value="314.0572108664995" />
+      <entry key="D1" value="336.2459617572941" />
+      <entry key="W1" value="340.3140111650715" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -134,7 +137,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books",
+    "last_opened_file_path": "/home/nicostoes/PycharmProjects/Mina-saker/Books",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -201,7 +204,8 @@
       <workItem from="1792163140121" duration="3211000" />
       <workItem from="1792259567763" duration="5082000" />
       <workItem from="1792312605856" duration="1960000" />
-      <workItem from="1792328200799" duration="5065000" />
+      <workItem from="1792328200799" duration="5092000" />
+      <workItem from="1792340162594" duration="731000" />
     </task>
     <task id="LOCAL−00001" summary="Testar via pychar 15/10/2026">
       <option name="closed" value="true" />
@@ -294,7 +298,14 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1792332895789</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="förklarat lite">
+      <option name="closed" value="true" />
+      <created>1792333277069</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1792333277069</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +347,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -366,9 +377,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1792314328643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$program.coverage" NAME="program Coverage Results" MODIFIED="1792312808870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Mina_saker$program.coverage" NAME="program Coverage Results" MODIFIED="1792088431916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Mina_saker$program.coverage" NAME="program Coverage Results" MODIFIED="1792340547577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1792313326683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_statistics" />
-    <SUITE FILE_PATH="coverage/Mina_saker$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1792332725466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
+    <SUITE FILE_PATH="coverage/Mina_saker$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1792340792181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$text_selection.coverage" NAME="text_selection Coverage Results" MODIFIED="1792314072632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Loading" />
     <SUITE FILE_PATH="coverage/Mina_saker$text_selection.coverage" NAME="text_selection Coverage Results" MODIFIED="1792330426784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Loading" />
   </component>

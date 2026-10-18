@@ -60,4 +60,4 @@ def word_once(word_analysis):
 #    print(f"{word:-^20}")
 
 #print(word_once(unique_word(file_menu())))
-#print(top_10_words(unique_word(file_menu())))
+#print( top_10_words(unique_word(file_menu())))

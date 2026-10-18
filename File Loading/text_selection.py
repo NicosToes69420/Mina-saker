@@ -8,6 +8,7 @@ def file_menu():
     while True:
         try:
             choice = int(input("Enter a choice: \n 1:Hume \n 2:Hume complete works \n 3: A theory of justice \n 4: Kallokain \n"))
+            print("hej")
             try:
                 match choice:
                     case 1:
@@ -23,9 +24,12 @@ def file_menu():
                         txt_path = cwd / "Books" / "A_theory_of_justice.txt"
                         return txt_path
 
+
                     case 4:
                         txt_path = cwd / "Books" / "Kallokain.txt"
+
                         return txt_path
+
 
                     case _: #alla andra cases/om inte bestämda cases sker
                         print("Please enter a valid choice")

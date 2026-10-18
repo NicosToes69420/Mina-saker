@@ -28,7 +28,7 @@ def unique_word(txt_path):
     return word_analysis
     #Tack geeks for geeks #d = {'watermelon': 1, 'apple': 2, 'banana': 3}        asc = k: v for k, v in sorted(d.items(), key=lambda item: item[1])} print(asc)
 
-#def word_frequency #vill inte ha så mycket i unique words
+
 
 def top_10_words(word_analysis):
     sorted_items = sorted(word_analysis["counted_words"].items(),
@@ -55,9 +55,11 @@ def word_once(word_analysis):
             word_analysis["once_words"][ordet] = antal
     return word_analysis
 
+
+
 #print(f"{word_once(unique_word())} hej"  )
 #for word in word_once(unique_word()):
 #    print(f"{word:-^20}")
 
 #print(word_once(unique_word(file_menu())))
-#print( top_10_words(unique_word(file_menu())))
+print( top_10_words(unique_word(file_menu())))

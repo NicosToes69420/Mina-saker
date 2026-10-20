@@ -21,7 +21,7 @@ def word_counter(txt_path):
 
 
 def unique_word(counter):
-    return list(counter.keys()) #alla ord, inget set behövs för att en dictionary kan inte ha duplicated keys
+    return list(counter.keys()) #alla ord, inget set behövs för att en dictionary kan inte ha duplicated keys#loveFöreläsning8
 
 
 def sum_words(counter):

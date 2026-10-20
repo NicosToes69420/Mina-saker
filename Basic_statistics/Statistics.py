@@ -11,7 +11,7 @@ def statistics_count():
             for char in line: #ska uttropstecken och annat räcknas med?
                 text_stats["total_char_space"] += 1
 
-            for word in line.split(): #borde man ta bort punkt?
+            for word in line.split(): #borde man ta bort punkt? #inklusiv dupes
                 text_stats["total_words"] += 1
 
                 for char in word:
@@ -32,6 +32,3 @@ def statistics_average(text_stats): #tar statistcsen och gör en average
     return text_stats, return_message
 
 
-#testar
-statistics_average1 = statistics_average(statistics_count())
-print(statistics_average1)

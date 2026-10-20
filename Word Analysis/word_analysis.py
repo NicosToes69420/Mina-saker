@@ -36,8 +36,8 @@ def top_10_words(counter):
                           key=lambda item: item[1], #lamba betyder att funktionen tar en annonym variabel.
                           reverse=True)[:10]
 
-    for k, v in sorted_items:
-        top_10_words[k] = v
+    for word, spot in sorted_items:
+        top_10_words[word] = spot
 
     return top_10_words
 
@@ -49,6 +49,5 @@ def word_once(counter):
         if antal == 1: #count är varje keys value
             once_words[ordet] = antal
 
-    return once_words
 
 

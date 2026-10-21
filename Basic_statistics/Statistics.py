@@ -38,3 +38,4 @@ def statistics_average(text_stats): #tar statistcsen och gör en average
     return text_stats
 
 
+#

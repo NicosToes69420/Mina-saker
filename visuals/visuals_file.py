@@ -42,4 +42,4 @@ def histogram():
     plt.grid(axis='y')
     plt.show()
 
-
+pichart()

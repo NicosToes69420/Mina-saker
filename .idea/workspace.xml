@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="lol">
+    <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="piechart!">
+      <change afterPath="$PROJECT_DIR$/character_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_statistics/Statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_statistics/Statistics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visuals/visuals_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/visuals/visuals_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,9 +67,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Statistics.executor": "Run",
+    "Python.grje.executor": "Run",
     "Python.program.executor": "Run",
     "Python.text_selection.executor": "Run",
-    "Python.visuals_file.executor": "Debug",
+    "Python.visuals_file.executor": "Run",
     "Python.word_analysis.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -141,6 +144,7 @@
       <workItem from="1792421398479" duration="5941000" />
       <workItem from="1792488448836" duration="8206000" />
       <workItem from="1792575174002" duration="3785000" />
+      <workItem from="1792585364748" duration="6781000" />
     </task>
     <task id="LOCAL−00001" summary="Testar via pychar 15/10/2026">
       <option name="closed" value="true" />
@@ -233,7 +237,14 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1792520357086</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="piechart!">
+      <option name="closed" value="true" />
+      <created>1792581141214</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1792581141214</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,11 +311,13 @@
     <MESSAGE value="lagt till en filväljare." />
     <MESSAGE value="finslipat rejält på word_analysis.py efter att ha pluggat vad key/value och item är. Moduläriserat också större delar ar funktionen och därmed gjort så att den inte behöver bära på alla ord i en bok hela tiden. men en dictionary(counter) så kan den veta att antalet orden samt hur ofta de förekommer och mer." />
     <MESSAGE value="putsat lite på Statistics.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="putsat lite på Statistics.py" />
+    <MESSAGE value="piechart!" />
+    <option name="LAST_COMMIT_MESSAGE" value="piechart!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$visuals_file.coverage" NAME="visuals_file Coverage Results" MODIFIED="1792580820377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visuals" />
-    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$program.coverage" NAME="program Coverage Results" MODIFIED="1792515604534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$grje.coverage" NAME="grje Coverage Results" MODIFIED="1792591160205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$visuals_file.coverage" NAME="visuals_file Coverage Results" MODIFIED="1792591855612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visuals" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$program.coverage" NAME="program Coverage Results" MODIFIED="1792585378284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker$program.coverage" NAME="program Coverage Results" MODIFIED="1792088431916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1792519152206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1792423797562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_statistics" />

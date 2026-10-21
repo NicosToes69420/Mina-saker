@@ -1,6 +1,6 @@
 
 import matplotlib.pyplot as plt
-
+import numpy as np
 from Statistics import statistics_count
 from text_selection import *
 from word_analysis import *
@@ -26,4 +26,20 @@ def pichart():
     plt.pie(values, labels=labels)
     plt.title("Pie Chart")
     plt.show()
-pichart()
+
+def histogram():
+    txt_path = Path("/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books/Dialogues concerning second religion.txt")
+    bert = word_counter((txt_path))
+    x = list(bert.keys())
+    y = list(bert.values())
+    #plt.figure(figsize = (10,10))
+    data = y
+    print(y)
+    plt.hist(data, bins=30, range=(-1, 30), color='skyblue', edgecolor='black')
+    #plt.xticks( )
+    plt.xlabel('Values')
+    plt.ylabel('Density')
+    plt.grid(axis='y')
+    plt.show()
+
+

@@ -1,6 +1,6 @@
 from pathlib import Path
-def statistics_count():
-    txt_path = Path("/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books/Dialogues concerning second religion.txt")  #filepath =txt
+def statistics_count(txt_path):
+    #txt_path = Path("/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books/Dialogues concerning second religion.txt")  #filepath =txt
     text_stats = { "total_words": 0,
                    "total_lines": 0,
                    "total_char_no_space": 0,

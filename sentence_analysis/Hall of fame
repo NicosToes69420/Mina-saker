@@ -1,0 +1,28 @@
+"""
+def sentences():
+    sentences_temp = []
+    file = Path("/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books/Dialogues concerning second religion.txt")
+    temp_index = -1
+    sentences = []
+    sentence = ""
+
+    #TS ass bro, går igenom det två gngr
+
+    with open(file, 'r') as f:
+        for line in f:
+            for line_index in range(len(line)):
+                sentences_temp.append(line[line_index])
+
+    for char_index in range(len(sentences_temp)):
+        if "." in sentences_temp[char_index] and temp_index == -1:
+            temp_index = char_index
+        elif "." in sentences_temp[char_index] and temp_index != -1:
+            for each in range(temp_index, char_index):
+                sentence += sentences_temp[each]
+            sentences.append(sentence)
+            temp_index = -1
+            sentence = ""
+
+
+    print(sentences[100])
+ """

@@ -31,11 +31,19 @@ def statistics_average(text_stats): #tar statistcsen och gör en average
     text_stats["average_words/line"] = text_stats["total_words"] / text_stats["total_lines"]
     text_stats["average_chars/words"] = text_stats["total_char_no_space"] / text_stats["total_words"]
 
+
     average_word = text_stats["total_words"] / text_stats["total_lines"]
 
-    #return_message = f" the average word per line is: { round( text_stats["average_word"], 2):-^5}, and the average character per word is: {round( text_stats["average_line"], 2):-^5}"
+    return_message = (f"Total Words: {text_stats["total_words"]:-^5}\n"
+                      f"Total Lines: {text_stats["total_lines"]:-^5}\n"
+                      f"total character - spaces {text_stats["total_char_space"]:-^5}\n"
+                      f"total_char_space {text_stats['total_char_space']:-^5}\n"
+                      f"Average word per line: {round( text_stats["average_words/line"], 2):-^5},\n"
+                      f"Average char per word: {round( text_stats["average_chars/words"], 2):-^5}\n")
 
-    return text_stats
+    return return_message
 
+def statistics_run(txt_path):
+    return statistics_average(statistics_count(txt_path))
 
-#
+#txt_path = Path("/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books/Dialogues concerning second religion.txt")

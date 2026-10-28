@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="piechart!">
-      <change afterPath="$PROJECT_DIR$/character_analysis.py" afterDir="false" />
+    <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="lagt till med big ed">
+      <change afterPath="$PROJECT_DIR$/Menu/main_menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic_statistics/Statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_statistics/Statistics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visuals/visuals_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/visuals/visuals_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File Loading/text_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/File Loading/text_selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentence_analysis/character_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentence_analysis/character_analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Statistics.executor": "Run",
+    "Python.character_analysis.executor": "Run",
     "Python.grje.executor": "Run",
+    "Python.main_menu.executor": "Run",
     "Python.program.executor": "Run",
     "Python.text_selection.executor": "Run",
     "Python.visuals_file.executor": "Run",
@@ -90,6 +93,7 @@
       <recent name="$PROJECT_DIR$/Books" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sentence_analysis" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -144,7 +148,10 @@
       <workItem from="1792421398479" duration="5941000" />
       <workItem from="1792488448836" duration="8206000" />
       <workItem from="1792575174002" duration="3785000" />
-      <workItem from="1792585364748" duration="6781000" />
+      <workItem from="1792585364748" duration="7101000" />
+      <workItem from="1792691097470" duration="676000" />
+      <workItem from="1793177769235" duration="2747000" />
+      <workItem from="1793180964438" duration="5743000" />
     </task>
     <task id="LOCAL−00001" summary="Testar via pychar 15/10/2026">
       <option name="closed" value="true" />
@@ -244,7 +251,14 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1792581141214</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="lagt till med big ed">
+      <option name="closed" value="true" />
+      <created>1792592183077</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1792592183077</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +300,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="MainLocal" />
+                        <option value="arbetsbranch" />
                       </list>
                     </value>
                   </entry>
@@ -312,15 +326,18 @@
     <MESSAGE value="finslipat rejält på word_analysis.py efter att ha pluggat vad key/value och item är. Moduläriserat också större delar ar funktionen och därmed gjort så att den inte behöver bära på alla ord i en bok hela tiden. men en dictionary(counter) så kan den veta att antalet orden samt hur ofta de förekommer och mer." />
     <MESSAGE value="putsat lite på Statistics.py" />
     <MESSAGE value="piechart!" />
-    <option name="LAST_COMMIT_MESSAGE" value="piechart!" />
+    <MESSAGE value="lagt till med big ed" />
+    <option name="LAST_COMMIT_MESSAGE" value="lagt till med big ed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$character_analysis.coverage" NAME="character_analysis Coverage Results" MODIFIED="1793181708046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence_analysis" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$grje.coverage" NAME="grje Coverage Results" MODIFIED="1792591160205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$visuals_file.coverage" NAME="visuals_file Coverage Results" MODIFIED="1792591855612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visuals" />
-    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$program.coverage" NAME="program Coverage Results" MODIFIED="1792585378284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$program.coverage" NAME="program Coverage Results" MODIFIED="1793180992779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker$program.coverage" NAME="program Coverage Results" MODIFIED="1792088431916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1792519152206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
-    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1792423797562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_statistics" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$main_menu.coverage" NAME="main_menu Coverage Results" MODIFIED="1793186707056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Menu" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1793186587904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_statistics" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$text_selection.coverage" NAME="text_selection Coverage Results" MODIFIED="1792515763627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Loading" />
   </component>
 </project>

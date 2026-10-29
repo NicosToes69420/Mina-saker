@@ -1,7 +1,8 @@
-
+from collections import *
 import matplotlib.pyplot as plt
 import numpy as np
 from Statistics import statistics_count
+from character_analysis import sentence_analysis
 from text_selection import *
 from word_analysis import *
 from statistics import *
@@ -29,7 +30,7 @@ def pichart():
 
 def histogram():
     txt_path = Path("/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books/Dialogues concerning second religion.txt")
-    bert = word_counter((txt_path))
+    bert = sentence_analysis()
     x = list(bert.keys())
     y = list(bert.values())
     #plt.figure(figsize = (10,10))
@@ -42,4 +43,4 @@ def histogram():
     plt.grid(axis='y')
     plt.show()
 
-pichart()
+histogram()

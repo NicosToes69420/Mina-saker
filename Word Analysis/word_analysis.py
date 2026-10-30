@@ -32,7 +32,7 @@ def sum_words(counter):
 def top_10_words(counter):
     top_10_words = dict()
     #geeks4 for geeks  # d = {'watermelon': 1, 'apple': 2, 'banana': 3}        asc = k: v for k, v in sorted(d.items(), key=lambda item: item[1])} print(asc)
-    sorted_items = sorted(counter.items(),
+    sorted_items = sorted(counter.items(), #items() = key,value i en tuple #index[1] = value, inedex[0] hade varit key
                           key=lambda item: item[1], #lamba betyder att funktionen tar en annonym variabel.
                           reverse=True)[:10]
 
@@ -48,6 +48,14 @@ def word_once(counter):
     for ordet, antal  in counter.items():
         if antal == 1: #count är varje keys value
             once_words[ordet] = antal
+    return once_words
 
 
-
+def word_length_distribution(counter):
+    length_counter = dict()
+    for ordet, antal in counter.items():
+        length = len(ordet)
+        length_counter[length] = length_counter.get(length, 0) + antal
+    return length_counter
+#print(word_length_distribution(word_counter(file_menu())))
+print(word_once(word_counter(file_menu())))

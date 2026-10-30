@@ -1,4 +1,5 @@
 from pathlib import Path
+"""  
 def tecken_reknare():
     dic = {}
 
@@ -13,27 +14,29 @@ def tecken_reknare():
 
 
     return dic
-
+"""
 
 def sentence_analysis():
     file = Path("/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books/Dialogues concerning second religion.txt")
-
+    char_count = {}
     alla_meningar = []
     temp_mening = ""
     count = 0
-    sentence_length = {}
+
     with open(file, 'r', encoding='utf-8') as f:
 
         for line in f:
+            for char in line.lower():
+                char_count[char] = char_count.get(char, 0) + 1
 
             for word in line.split():
                 if word[-1] in [".", "!" "."]:
                     alla_meningar.append(temp_mening)
-                    temp_mening = ""
+                    temp_mening = "" #kan inte detta också räkna punkt?
                 else:
-                    temp_mening += " "+word
+                    temp_mening += " " + word
 
-    print(alla_meningar)
+    return char_count, alla_meningar
 """
             for char in line.strip("\n"): # gillar inte \n i texten
                 
@@ -58,6 +61,10 @@ def sentence_analysis():
 
 
     return sentence_length
+    
+   
+    
+    
 """
 sentence_analysis()
 
@@ -86,8 +93,8 @@ def filter_chars(dic):
 
 
 def output_most_common_letters():
-
-    dic_letter = filter_chars(tecken_reknare())
+    sentences, counter  = sentence_analysis()
+    dic_letter = filter_chars(counter)
     #print(dic_letter)
     print('Most common letters')
 

@@ -1,7 +1,7 @@
 
 from Statistics import *
 from text_selection import file_menu
-
+from word_analysis import *
 
 #print(f"{line} \n {Text[0]:^20}\n{line}\n {Text[1]:^10}\n {Text[2]:^20} \n {Text[3]:^10} \n {Text[4]:^20} "
 #      f"\n {Text[5]:^10} \n {Text[6]:^10} \n {Text[7]:^5} \n {line}" )
@@ -23,7 +23,7 @@ def main_menu_print(file):
 
 
 def wait_to_return():
-    g = input("press enter to return to main menu")
+    wait = input("press enter to return to main menu")
 
 
 
@@ -43,6 +43,13 @@ def load_text_file():
                         wait_to_return()
                     except:
                         print("Välj en text fil först")
+                case 3:
+                    try:
+                        run_word(txt_path)
+                        wait_to_return()
+                    except:
+                        print("Välj en text fil först")
+                        wait_to_return()
 
 
         except ValueError:

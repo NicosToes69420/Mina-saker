@@ -36,9 +36,9 @@ def statistics_average(text_stats): #tar statistcsen och gör en average
 
     return_message = (f"Total Words: {text_stats["total_words"]:-^5}\n"
                       f"Total Lines: {text_stats["total_lines"]:-^5}\n"
-                      f"total character - spaces {text_stats["total_char_space"]:-^5}\n"
-                      f"total_char_space {text_stats['total_char_space']:-^5}\n"
-                      f"Average word per line: {round( text_stats["average_words/line"], 2):-^5},\n"
+                      f"total characters not including spaces {text_stats["total_char_space"]:-^5}\n"
+                      f"total characters including spaces {text_stats['total_char_space']:-^5}\n"
+                      f"Average word per line: {round( text_stats["average_words/line"], 2):-^5}\n"
                       f"Average char per word: {round( text_stats["average_chars/words"], 2):-^5}\n")
 
     return return_message

@@ -8,7 +8,7 @@ def file_menu():
             match choice:
                 case 1:
                     txt_path = Path(
-                        "/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books/Dialogues concerning second religion.txt")
+                        "/home/nicostoes/PycharmProjects/Mina-saker/Books/A_theory_of_justice.txt")
                     return txt_path
                 case 2:
                     txt_path = Path("/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books/David_hume_complete_works.txt")

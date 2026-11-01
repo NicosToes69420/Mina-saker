@@ -36,11 +36,15 @@ def top_10_words(counter):
                           key=lambda item: item[1], #lamba betyder att funktionen tar en annonym variabel.
                           reverse=True)[:10]
 
-    for word, spot in sorted_items:
-        top_10_words[word] = spot
+    for word, rank in sorted_items:
+        top_10_words[word] = rank
 
     return top_10_words
 
+def longest_and_shortest(counter):
+    longest = max(counter.keys(), key = len)
+    shortest = min(counter.keys(), key = len)
+    return len(longest), len(shortest)
 
 #skriver ut vilka ord som förekommer endast en gång
 def word_once(counter):
@@ -51,6 +55,8 @@ def word_once(counter):
     return once_words
 
 
+
+#print( longest_and_shortest(word_counter(file_menu())) )
 def word_length_distribution(counter):
     length_counter = dict()
     for ordet, antal in counter.items():
@@ -58,4 +64,23 @@ def word_length_distribution(counter):
         length_counter[length] = length_counter.get(length, 0) + antal
     return length_counter
 #print(word_length_distribution(word_counter(file_menu())))
-print(word_once(word_counter(file_menu())))
+
+def ui_word(txt_path):
+    top10 = top_10_words(word_counter(txt_path))
+    long, short = longest_and_shortest(word_counter(txt_path))
+    sum_word = sum_words(word_counter(txt_path))
+
+    once_word = sum_words((word_once(word_counter(txt_path))))
+    #average word_length
+
+    print(f"Top 10 most common words:\n")
+
+    for rank in range(10):
+        print(f"{rank}. {list(top10.keys())[rank]} ----{list(top10.values())[rank]} Times "
+              f"({round ( list(top10.values())[rank]/(sum_word - list(top10.values())[rank])* 100 , 2)  }%  )")
+
+
+    print(f"Word length statistics:\n Longest Word: {long} \n Shortest Word: {short} \n Average word length: {1}"
+          f"\n Words appearing only once: {once_word} ")
+def run_word(txt_path):
+    return ui_word(txt_path)

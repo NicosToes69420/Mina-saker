@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="lagt till en main menu och har fixat lite">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Mina-saker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mina-saker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_statistics/Statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_statistics/Statistics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File Loading/text_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/File Loading/text_selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu/main_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/main_menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Word Analysis/word_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Word Analysis/word_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentence_analysis/character_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentence_analysis/character_analysis.py" afterDir="false" />
     </list>
@@ -54,6 +57,65 @@
     &quot;accountId&quot;: &quot;539fa463-6359-4d7f-b74c-011b5dbdbe6e&quot;
   }
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000002995595" />
+      <entry key="S5" value="1.0002336123425613" />
+      <entry key="S10" value="1.0216858360091945" />
+      <entry key="S30" value="1.5987298179196265" />
+      <entry key="S60" value="3.2820989153809355" />
+      <entry key="M2" value="8.075528798502093" />
+      <entry key="M5" value="24.737377866119644" />
+      <entry key="M10" value="51.91686985865943" />
+      <entry key="M15" value="73.85194026090478" />
+      <entry key="M30" value="113.0953025897661" />
+      <entry key="H1" value="144.29159358425338" />
+      <entry key="H2" value="164.27467792746668" />
+      <entry key="H4" value="175.8524527985245" />
+      <entry key="D1" value="192.07982230239364" />
+      <entry key="W1" value="198.61697871630753" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.902054157095207E-165" />
+      <entry key="S2" value="9.385947921694466E-42" />
+      <entry key="S5" value="5.649840069140632E-17" />
+      <entry key="S10" value="1.0965143317623126E-8" />
+      <entry key="S30" value="0.004329250954750141" />
+      <entry key="S60" value="0.12508975528123256" />
+      <entry key="M2" value="0.7892998926570345" />
+      <entry key="M5" value="3.345516026996419" />
+      <entry key="M10" value="6.628951605585757" />
+      <entry key="M15" value="8.669480850534296" />
+      <entry key="M30" value="11.619477315697177" />
+      <entry key="H1" value="13.586891253890839" />
+      <entry key="H2" value="14.732015176468813" />
+      <entry key="H4" value="15.407052775032465" />
+      <entry key="D1" value="17.444207738545376" />
+      <entry key="W1" value="18.71531142110296" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.003852471501927183" />
+      <entry key="MS500" value="0.32896363125725203" />
+      <entry key="S2" value="0.7573331582364377" />
+      <entry key="S5" value="0.8950100523690457" />
+      <entry key="S10" value="0.9675884467298753" />
+      <entry key="S30" value="1.5842822329368014" />
+      <entry key="S60" value="3.3938711389461127" />
+      <entry key="M2" value="8.844846560810126" />
+      <entry key="M5" value="28.048687387834267" />
+      <entry key="M10" value="58.50602891573026" />
+      <entry key="M15" value="82.48276315715883" />
+      <entry key="M30" value="124.68473852508531" />
+      <entry key="H1" value="157.8592594276353" />
+      <entry key="H2" value="178.99574371906436" />
+      <entry key="H4" value="191.25364150311412" />
+      <entry key="D1" value="209.5229462494136" />
+      <entry key="W1" value="217.33212827876145" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7,
   &quot;fromUser&quot;: false
@@ -63,29 +125,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Statistics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.character_analysis.executor&quot;: &quot;Run&quot;,
-    &quot;Python.grje.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_menu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.program.executor&quot;: &quot;Run&quot;,
-    &quot;Python.text_selection.executor&quot;: &quot;Run&quot;,
-    &quot;Python.visuals_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.word_analysis.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;MainLocal&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Statistics.executor": "Run",
+    "Python.character_analysis.executor": "Run",
+    "Python.grje.executor": "Run",
+    "Python.main_menu.executor": "Run",
+    "Python.program.executor": "Run",
+    "Python.text_selection.executor": "Run",
+    "Python.visuals_file.executor": "Run",
+    "Python.word_analysis.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Books" />
@@ -105,7 +171,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="~/PycharmProjects/WelcomeScreen/.venv" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -345,14 +410,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="lagt till en main menu och har fixat lite" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$character_analysis.coverage" NAME="character_analysis Coverage Results" MODIFIED="1793221327033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence_analysis" />
-    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$grje.coverage" NAME="grje Coverage Results" MODIFIED="1792591160205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$visuals_file.coverage" NAME="visuals_file Coverage Results" MODIFIED="1793219674569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visuals" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$program.coverage" NAME="program Coverage Results" MODIFIED="1793369582945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mina_saker$program.coverage" NAME="program Coverage Results" MODIFIED="1792088431916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1793370054805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$main_menu.coverage" NAME="main_menu Coverage Results" MODIFIED="1793222658375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Menu" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$character_analysis.coverage" NAME="character_analysis Coverage Results" MODIFIED="1793221327033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence_analysis" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1793186587904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_statistics" />
+    <SUITE FILE_PATH="coverage/Mina_saker$main_menu.coverage" NAME="main_menu Coverage Results" MODIFIED="1793541385760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Menu" />
+    <SUITE FILE_PATH="coverage/Mina_saker$character_analysis.coverage" NAME="character_analysis Coverage Results" MODIFIED="1793459472202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence_analysis" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1793370054805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
+    <SUITE FILE_PATH="coverage/Mina_saker_Localtree$grje.coverage" NAME="grje Coverage Results" MODIFIED="1792591160205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Mina_saker$word_analysis.coverage" NAME="word_analysis Coverage Results" MODIFIED="1793540471150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Word Analysis" />
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$text_selection.coverage" NAME="text_selection Coverage Results" MODIFIED="1792515763627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Loading" />
   </component>
 </project>

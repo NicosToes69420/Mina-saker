@@ -1,4 +1,5 @@
 from pathlib import Path
+from word_analysis import *
 """  
 def tecken_reknare():
     dic = {}
@@ -17,7 +18,7 @@ def tecken_reknare():
 """
 
 def sentence_analysis():
-    file = Path("/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books/Dialogues concerning second religion.txt")
+    file = Path("/home/nicostoes/PycharmProjects/Mina-saker/Books/Kallokain.txt")
     char_count = {}
     alla_meningar = []
     temp_mening = ""
@@ -36,7 +37,8 @@ def sentence_analysis():
                 else:
                     temp_mening += " " + word
 
-    return char_count, alla_meningar
+    return type(char_count), type(alla_meningar)
+
 """
             for char in line.strip("\n"): # gillar inte \n i texten
                 
@@ -93,8 +95,8 @@ def filter_chars(dic):
 
 
 def output_most_common_letters():
-    sentences, counter  = sentence_analysis()
-    dic_letter = filter_chars(counter)
+
+
     #print(dic_letter)
     print('Most common letters')
 
@@ -103,10 +105,10 @@ def output_most_common_letters():
                           reverse=True)[:10]
 
 
+    return sorted_top10
 
-
-    for rad in range(10):
-        print(f"{rad + 1} {str(sorted_top10[rad]).strip("()").replace(",","-")}" )
+    #for rad in range(10):
+        #print(f"{rad + 1} {str(sorted_top10[rad]).strip("()").replace(",","-")}" )
 
 
 def paragraph(txt_path):# vet inte var denna borde ligga

@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="lagt till en main menu och har fixat lite">
-      <change beforePath="$PROJECT_DIR$/.idea/Mina-saker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mina-saker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic_statistics/Statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_statistics/Statistics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File Loading/text_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/File Loading/text_selection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menu/main_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/main_menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Analysis/word_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Word Analysis/word_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentence_analysis/character_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentence_analysis/character_analysis.py" afterDir="false" />
-    </list>
+    <list default="true" id="ac21784d-8b2e-4920-9b40-c74059e195ed" name="Changes" comment="fixat lite" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,61 +52,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000002995595" />
-      <entry key="S5" value="1.0002336123425613" />
-      <entry key="S10" value="1.0216858360091945" />
-      <entry key="S30" value="1.5987298179196265" />
-      <entry key="S60" value="3.2820989153809355" />
-      <entry key="M2" value="8.075528798502093" />
-      <entry key="M5" value="24.737377866119644" />
-      <entry key="M10" value="51.91686985865943" />
-      <entry key="M15" value="73.85194026090478" />
-      <entry key="M30" value="113.0953025897661" />
-      <entry key="H1" value="144.29159358425338" />
-      <entry key="H2" value="164.27467792746668" />
-      <entry key="H4" value="175.8524527985245" />
-      <entry key="D1" value="192.07982230239364" />
-      <entry key="W1" value="198.61697871630753" />
+      <entry key="MS100" value="1.157613615426861" />
+      <entry key="MS500" value="2.0433628908857218" />
+      <entry key="S2" value="2.683285161536216" />
+      <entry key="S5" value="2.865245393948583" />
+      <entry key="S10" value="2.9311917081530448" />
+      <entry key="S30" value="2.97673745110217" />
+      <entry key="S60" value="2.988327886532728" />
+      <entry key="M2" value="2.997330295219059" />
+      <entry key="M5" value="4.072368777119607" />
+      <entry key="M10" value="13.820075830284907" />
+      <entry key="M15" value="28.961396556313485" />
+      <entry key="M30" value="70.05507293781763" />
+      <entry key="H1" value="114.10537442308622" />
+      <entry key="H2" value="147.15102358245719" />
+      <entry key="H4" value="167.7297357289288" />
+      <entry key="D1" value="192.9994498178771" />
+      <entry key="W1" value="201.3082319625758" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.902054157095207E-165" />
-      <entry key="S2" value="9.385947921694466E-42" />
-      <entry key="S5" value="5.649840069140632E-17" />
-      <entry key="S10" value="1.0965143317623126E-8" />
-      <entry key="S30" value="0.004329250954750141" />
-      <entry key="S60" value="0.12508975528123256" />
-      <entry key="M2" value="0.7892998926570345" />
-      <entry key="M5" value="3.345516026996419" />
-      <entry key="M10" value="6.628951605585757" />
-      <entry key="M15" value="8.669480850534296" />
-      <entry key="M30" value="11.619477315697177" />
-      <entry key="H1" value="13.586891253890839" />
-      <entry key="H2" value="14.732015176468813" />
-      <entry key="H4" value="15.407052775032465" />
-      <entry key="D1" value="17.444207738545376" />
-      <entry key="W1" value="18.71531142110296" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="4.603827609016942E-246" />
+      <entry key="S5" value="1.0673147701516891E-98" />
+      <entry key="S10" value="1.5071014753345856E-49" />
+      <entry key="S30" value="1.0370240353588723E-16" />
+      <entry key="S60" value="1.9360197051441895E-8" />
+      <entry key="M2" value="3.105174842623594E-4" />
+      <entry key="M5" value="0.1453452090326282" />
+      <entry key="M10" value="1.381699662540936" />
+      <entry key="M15" value="3.047700551837353" />
+      <entry key="M30" value="6.8893173952834585" />
+      <entry key="H1" value="10.462004438443246" />
+      <entry key="H2" value="12.927351506532961" />
+      <entry key="H4" value="14.43255663254246" />
+      <entry key="D1" value="17.255274265717482" />
+      <entry key="W1" value="18.686218893695546" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.003852471501927183" />
-      <entry key="MS500" value="0.32896363125725203" />
-      <entry key="S2" value="0.7573331582364377" />
-      <entry key="S5" value="0.8950100523690457" />
-      <entry key="S10" value="0.9675884467298753" />
-      <entry key="S30" value="1.5842822329368014" />
-      <entry key="S60" value="3.3938711389461127" />
-      <entry key="M2" value="8.844846560810126" />
-      <entry key="M5" value="28.048687387834267" />
-      <entry key="M10" value="58.50602891573026" />
-      <entry key="M15" value="82.48276315715883" />
-      <entry key="M30" value="124.68473852508531" />
-      <entry key="H1" value="157.8592594276353" />
-      <entry key="H2" value="178.99574371906436" />
-      <entry key="H4" value="191.25364150311412" />
-      <entry key="D1" value="209.5229462494136" />
-      <entry key="W1" value="217.33212827876145" />
+      <entry key="MS100" value="1.128608979649118" />
+      <entry key="MS500" value="2.028686925738159" />
+      <entry key="S2" value="2.6781200623981514" />
+      <entry key="S5" value="2.8630120297675608" />
+      <entry key="S10" value="2.930044818289401" />
+      <entry key="S30" value="2.976348210892624" />
+      <entry key="S60" value="2.98813240094234" />
+      <entry key="M2" value="2.9975349782889054" />
+      <entry key="M5" value="4.216188649352006" />
+      <entry key="M10" value="15.193461737930276" />
+      <entry key="M15" value="31.99549406272327" />
+      <entry key="M30" value="76.92657191899268" />
+      <entry key="H1" value="124.55257188357587" />
+      <entry key="H2" value="160.06876536114368" />
+      <entry key="H4" value="182.15679837522134" />
+      <entry key="D1" value="210.2536518939379" />
+      <entry key="W1" value="219.99428922974457" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -125,33 +118,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Statistics.executor": "Run",
-    "Python.character_analysis.executor": "Run",
-    "Python.grje.executor": "Run",
-    "Python.main_menu.executor": "Run",
-    "Python.program.executor": "Run",
-    "Python.text_selection.executor": "Run",
-    "Python.visuals_file.executor": "Run",
-    "Python.word_analysis.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Statistics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.character_analysis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grje.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.text_selection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.visuals_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.word_analysis.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nicolai/PycharmProjects/Mina-saker-Localtree/Books&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Books" />
@@ -337,7 +330,14 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1793187320904</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="fixat lite">
+      <option name="closed" value="true" />
+      <created>1793542744435</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1793542744435</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +407,8 @@
     <MESSAGE value="piechart!" />
     <MESSAGE value="lagt till med big ed" />
     <MESSAGE value="lagt till en main menu och har fixat lite" />
-    <option name="LAST_COMMIT_MESSAGE" value="lagt till en main menu och har fixat lite" />
+    <MESSAGE value="fixat lite" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixat lite" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Mina_saker_Localtree$visuals_file.coverage" NAME="visuals_file Coverage Results" MODIFIED="1793219674569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visuals" />

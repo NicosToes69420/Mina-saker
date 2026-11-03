@@ -1,6 +1,10 @@
 
+
+from char import *
+from sentence_analysis import run_sentence
+from visuals_file import *
+from word_analysis import *
 from Statistics import *
-from text_selection import file_menu
 from word_analysis import *
 
 #print(f"{line} \n {Text[0]:^20}\n{line}\n {Text[1]:^10}\n {Text[2]:^20} \n {Text[3]:^10} \n {Text[4]:^20} "
@@ -45,11 +49,32 @@ def load_text_file():
                         print("Välj en text fil först")
                 case 3:
                     try:
-                        run_word(txt_path)
-                        wait_to_return()
+                         ui_word(txt_path)
+                         wait_to_return()
                     except:
                         print("Välj en text fil först")
                         wait_to_return()
+                case 4:
+                    try:
+                        print(run_sentence(txt_path))
+                        wait_to_return()
+                    except:
+                        print("Välj en text fil först, tack")
+                case 5:
+                    try:
+                        print(run_char(txt_path))
+                        wait_to_return()
+                    except:
+                        print("Välj en text fil först")
+                case 6:
+                    try:
+                        run_all_visuals(txt_path)
+                    except:
+                        print("välj en text fil fört")
+
+                case _:
+                    print("frick you")
+
 
 
         except ValueError:

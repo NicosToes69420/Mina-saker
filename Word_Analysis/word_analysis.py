@@ -1,6 +1,6 @@
 #from text_selection import file_menu
 from text_selection import file_menu
-
+import pathlib
 #skapar unique wowrd och räknar hur ofta ord förekommer
 def word_counter(txt_path):
 
@@ -63,13 +63,27 @@ def word_length_distribution(counter):
         length = len(ordet)
         length_counter[length] = length_counter.get(length, 0) + antal
     return length_counter
-#print(word_length_distribution(word_counter(file_menu())))
+
+def average_word_length(length_distribution):
+    total_length = 0
+
+    for length, count in length_distribution.items():
+        total_length += length * count
+
+    total_words = sum(length_distribution.values())
+    average_length = round(total_length / total_words, 2 )
+    return average_length #float
+
+
+
+
+
 
 def ui_word(txt_path):
     top10 = top_10_words(word_counter(txt_path))
     long, short = longest_and_shortest(word_counter(txt_path))
     sum_word = sum_words(word_counter(txt_path))
-
+    average = average_word_length(word_length_distribution(word_counter(txt_path)))
     once_word = sum_words((word_once(word_counter(txt_path))))
     #average word_length
 
@@ -77,10 +91,13 @@ def ui_word(txt_path):
 
     for rank in range(10):
         print(f"{rank}. {list(top10.keys())[rank]} ----{list(top10.values())[rank]} Times "
-              f"({round ( list(top10.values())[rank]/(sum_word - list(top10.values())[rank])* 100 , 2)  }%  )")
+              f"({round ( list(top10.values())[rank]/sum_word* 100 , 2)  }%  )")
 
 
-    print(f"Word length statistics:\n Longest Word: {long} \n Shortest Word: {short} \n Average word length: {1}"
+    print(f"Word length statistics:\n Longest Word: {long} \n Shortest Word: {short} \n Average word length: {average} %"
           f"\n Words appearing only once: {once_word} ")
+
+
 def run_word(txt_path):
-    return ui_word(txt_path)
+    ui_word(txt_path)
+
